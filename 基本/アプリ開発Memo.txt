@@ -1,0 +1,26 @@
+■Andoroid appli
+　1.開発言語
+　　1.Java
+　　　人気下降気味
+　　2.kotlin
+　　　人気上昇気味
+　2.クロスプラットフォーム Android/iOS/Web
+　　1.Unity
+　　2.Flutter
+　3.開発工程
+　　1.環境構築
+　　　Android Studio
+　　　 JDK, SDK, エミュレータ
+　　　Android端末
+　　　Java/kotlin
+　　2.設計
+　　3.開発
+　　4.テスト
+　　　・エミュレーターテスト
+　　　・実機テスト
+　　　　実機上でちがう動作する場合もあるので必要
+　　5.リリース
+　　　1.Google Developer Account 作成
+　　　　費用 25USD 作成時のみ支払い
+　　　2.デジタル署名したパッケージ(apkファイル)を準備
+　　　3.GooglePlayにアプリケーションを登録する。
