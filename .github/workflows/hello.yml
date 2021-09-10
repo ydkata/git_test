@@ -9,6 +9,7 @@ on:
 jobs:
   print-hello-world:
     runs-on: ubuntu-latest
+    if: contains(github.head_ref, 'Renshu2')
     steps:
       - name: execute echo command
-      run: echo "Hello World!"
+      run: echo 'Hello World!'
