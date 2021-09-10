@@ -3,7 +3,7 @@ name: Action Sample
 on:
   push:
     branches:
-       - develop
+       - Renshu2
   workflow_dispatch:
 
 jobs:
