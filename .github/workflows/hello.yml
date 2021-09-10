@@ -11,4 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: execute echo command
-        run: echo "Hello World!"
+      - run: echo "Hello World2!"
+      - run: echo "${GITHUB_REF#refs/heads/}"
+      - run: echo "${GITHUB_REF_CONTEXT#refs/heads/}"
+    env:
+      GITHUB_REF_CONTEXT: ${{ github.ref }}
