@@ -2,8 +2,7 @@ name: Action Sample
 
 on:
   push:
-    branches: 
-      - master
+    branches:[ Renshu2 ]  # developブランチにpushされたときにワークフロー実行
   workflow_dispatch:
 
 jobs:
