@@ -3,7 +3,7 @@ name: Action Sample
 on:
   push:
     branches:
-       - 'Renshu2/**'      # developブランチにpushされたときにワークフロー実行
+       - 'Renshu2/**'
   workflow_dispatch:
 
 jobs:
