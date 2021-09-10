@@ -12,11 +12,9 @@ jobs:
     steps:
       - name: Greeting
       - run: echo 'Master world1'
-      - run: echo 'Master world2'
   print-brunches:
     runs-on: ubuntu-latest
     if: contains(github.head_ref, 'Renshu2')
     steps:
       - name: Greeting
-      - run: echo 'Renshu2 world'
       - run: echo 'Renshu2 world'
