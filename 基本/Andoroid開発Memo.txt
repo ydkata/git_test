@@ -4,10 +4,11 @@
 　　　人気下降気味
 　　2.kotlin
 　　　人気上昇気味
-　2.クロスプラットフォーム Android/iOS/Web
-　　1.Unity
-　　2.Flutter
-　3.開発工程
+　　3.クロスプラットフォーム Android/iOS/Web
+　　　1.Unity
+　　　2.Flutter
+　　　3.React Native
+　2.開発工程
 　　1.環境構築
 　　　Android Studio
 　　　 JDK, SDK, エミュレータ
