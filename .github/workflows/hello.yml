@@ -10,21 +10,18 @@ jobs:
   print-default:
     runs-on: ubuntu-latest
     steps:
-      - id: step1-1
-      - name: Greeting
+      - name: M-Step1
         run: echo 'Master world1'
-      - id: step1-2
-      - name: Greeting
+      - name: M-Step2
         run: echo 'Master end1'
         
   print-brunches:
     runs-on: ubuntu-latest
     if: contains(github.head_ref, 'Renshu2')
     steps:
-      - id: step1
-      - name: Greeting
+      - name: B-Step1
         run: echo 'Renshu2 world'
-      - id: step2
+      - name: B-Step2
         run: echo Step2 
     env:
       GITHUB_REF_CONTEXT: ${{ github.ref }}
