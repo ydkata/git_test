@@ -1,0 +1,35 @@
+■iOS appli
+　1.開発言語
+　　1.Objective-C
+●　2.Swift
+　　　Objective-Cより、動作が早い
+　　3.クロスプラットフォーム Android/iOS/Web
+　　　1.Unity
+●　　2.Flutter
+　　　3.React Native
+　2.開発工程
+　　1.環境構築
+　　　Xcode
+　　　iOS端末
+　　2.設計
+　　3.開発
+　　4.テスト
+　　　・iOSエミュレーターテスト
+　　　・実機テスト
+　　　　実機で動作しない場合もあるので実施は必要
+　　5.リリース
+　　　1.Apple Account 作成
+　　　2.Apple Developer Programへ登録
+　　　　年間 11,800JPY 必要
+　　　3.Certificate(証明書)の作成
+　　　4.Apple IDの作成
+　　　5.Provisioningfileの作成
+　　　6.AppStoreConnectにアプリの登録
+　　　7.App情報編集
+　　　8.バージョン情報編集
+　　　9.アーカイブ作成&アップロード
+　　　10.App Store Connectでの審査申請
+
+　　　毎年かわることがあるので、リリース手順の確認は必要。
+
+[EOF]
